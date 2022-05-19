@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 6779817441752589244}
   - component: {fileID: 6762362879799812674}
   - component: {fileID: 6829478598317906590}
-  m_Layer: 0
+  - component: {fileID: 6869241592179896430}
+  m_Layer: 3
   m_Name: Ground_low_Cube.073
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81,6 +82,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6869241592179896430
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098479501769008662}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.455515, y: 1.017979, z: 1.455926}
+  m_Center: {x: -0.007085502, y: -0.49886551, z: -0.012303978}
 --- !u!1 &4503353898776126870
 GameObject:
   m_ObjectHideFlags: 0
@@ -90,7 +104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3833953264246439724}
-  - component: {fileID: 2045749198081819505}
+  - component: {fileID: 9222972543668495448}
   m_Layer: 0
   m_Name: Ground1
   m_TagString: Untagged
@@ -113,7 +127,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2045749198081819505
+--- !u!114 &9222972543668495448
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
