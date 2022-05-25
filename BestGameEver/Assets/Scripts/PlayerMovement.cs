@@ -117,10 +117,12 @@ public class PlayerMovement : MonoBehaviour
         velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
     }
     private IEnumerator Attack() {
-        anim.SetTrigger("Attack");
+        
+        anim.SetTrigger("Pick");
         stopMoving = true;
-        yield return new WaitForSeconds(0.9f);
+        yield return new WaitForSeconds(2f);
         
         stopMoving = false;
+        
     }
 }
